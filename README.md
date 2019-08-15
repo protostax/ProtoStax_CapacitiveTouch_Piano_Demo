@@ -17,7 +17,7 @@ This demo uses
 For further instructions, see the [Portable Capacitive Touch Piano](https://www.hackster.io/sridhar-rajagopal/protostax-capacitive-touch-piano-demo-2c38e9) Tutorial at [Hackster.io](https://www.hackster.io/sridhar-rajagopal/protostax-capacitive-touch-piano-demo-2c38e9)
 
 Also see
-[Multi-Octave Portable Capacitive Touch Piano](https://create.arduino.cc/projecthub/sridhar-rajagopal/multi-octave-portable-capacitive-touch-piano-0ac3e4) Tuturial
+[Multi-Octave Portable Capacitive Touch Piano](https://create.arduino.cc/projecthub/sridhar-rajagopal/multi-octave-portable-capacitive-touch-piano-0ac3e4) Tutorial
 
 ## Installing
 
