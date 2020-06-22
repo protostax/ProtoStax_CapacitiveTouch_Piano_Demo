@@ -1,6 +1,11 @@
 # ProtoStax_CapacitiveTouch_Piano_Demo
 
-Demo for ProtoStax Capacitive Touch Piano with Adafruit 12 x Capacitive Touch Shield for Arduino - MPR121, Piezo Buzzer, Arduino
+Demo for ProtoStax Capacitive Touch Piano 
+and
+ProtoStax Multi-Octave Capacitive Touch Piano
+
+with Adafruit 12 x Capacitive Touch Shield for Arduino - MPR121, Piezo
+Buzzer, Arduino
 
 ![ProtoStax Capacitive Touch Piano Demo](ProtoStax_Capacitive_Touch_Piano_Demo.jpg)
 
@@ -14,6 +19,10 @@ This demo uses
 * [ProtoStax for Arduino](https://www.protostax.com/products/protostax-for-arduino)
 * Arduino (Uno), but you can use other form factors that fit a Shield
 
+The multi-octave piano also uses 2 momentary push button switches to
+move the octave of the piano up or down from the base octave, giving
+multi-octaves with the same capacitive touch keyboard.
+
 For further instructions, see the [Portable Capacitive Touch Piano](https://www.hackster.io/sridhar-rajagopal/protostax-capacitive-touch-piano-demo-2c38e9) Tutorial at [Hackster.io](https://www.hackster.io/sridhar-rajagopal/protostax-capacitive-touch-piano-demo-2c38e9)
 
 Also see
@@ -21,7 +30,11 @@ Also see
 
 ## Installing
 
-This demo uses the Adafruit_MPR121 library - see [https://github.com/adafruit/Adafruit_MPR121](https://github.com/adafruit/Adafruit_MPR121)
+This demo uses:
+
+* Adafruit_MPR121 library - see [https://github.com/adafruit/Adafruit_MPR121](https://github.com/adafruit/Adafruit_MPR121)
+* JC_Button library - see [https://github.com/JChristensen/JC_Button](https://github.com/JChristensen/JC_Button)
+
 It also uses the built-in tone library. You can replace it with the NewTone library if you like
 
 ```

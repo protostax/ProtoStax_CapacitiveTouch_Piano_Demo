@@ -28,7 +28,7 @@
 
 
 #include <Wire.h>
-#include <Button.h>
+#include <JC_Button.h>
 #include "Adafruit_MPR121.h"
 #include "pitches.h"
 #include "noteDurations.h"
