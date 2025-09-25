@@ -50,8 +50,8 @@
 #define DEBOUNCE_MS 20     //A debounce time of 20 milliseconds usually works well for tactile button switches.
 #define LONG_PRESS 1000    //We define a "long press" to be 1000 milliseconds.
 
-Button upBtn(SW1, PULLUP, INVERT, DEBOUNCE_MS);    //Declare the button
-Button downBtn(SW2, PULLUP, INVERT, DEBOUNCE_MS);    //Declare the button
+Button upBtn(SW2, DEBOUNCE_MS, PULLUP, INVERT);    //Declare the button
+Button downBtn(SW1, DEBOUNCE_MS, PULLUP, INVERT);    //Declare the button
 
 // pitches.h defines all the frequencies for the different notes in different octaves
 // Let us pick one octave for our keyboard below, so it is easy to change it in one place
@@ -162,6 +162,10 @@ void setup() {
     Serial.println(F("MPR121 not found, check wiring?"));
     while (1);
   }
+
+  upBtn.begin();
+  downBtn.begin();
+
   Serial.println(F("MPR121 found!"));
   playTune(melody2, 23, 48);
 }

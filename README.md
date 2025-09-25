@@ -32,8 +32,8 @@ Also see
 
 This demo uses:
 
-* Adafruit_MPR121 library - see [https://github.com/adafruit/Adafruit_MPR121](https://github.com/adafruit/Adafruit_MPR121)
-* JC_Button library - see [https://github.com/JChristensen/JC_Button](https://github.com/JChristensen/JC_Button)
+* Adafruit_MPR121 library v 1.1.3 - see [https://github.com/adafruit/Adafruit_MPR121](https://github.com/adafruit/Adafruit_MPR121)
+* JC_Button library v 2.1.5 - see [https://github.com/JChristensen/JC_Button](https://github.com/JChristensen/JC_Button)
 
 It also uses the built-in tone library. You can replace it with the NewTone library if you like
 
